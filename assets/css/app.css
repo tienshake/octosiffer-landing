@@ -855,6 +855,10 @@ body {
   gap: 14px;
 }
 
+.gap-\[84px\] {
+  gap: 84px;
+}
+
 .overflow-hidden {
   overflow: hidden;
 }
@@ -1198,10 +1202,6 @@ body {
 
   .md\:gap-16 {
     gap: 4rem;
-  }
-
-  .md\:gap-20 {
-    gap: 5rem;
   }
 
   .md\:gap-4 {
