@@ -1216,6 +1216,10 @@ body {
     gap: 2rem;
   }
 
+  .md\:gap-20 {
+    gap: 5rem;
+  }
+
   .md\:p-8 {
     padding: 2rem;
   }
@@ -1335,6 +1339,10 @@ body {
     gap: 52px;
   }
 
+  .lg\:gap-\[84px\] {
+    gap: 84px;
+  }
+
   .lg\:px-\[4\.6vw\] {
     padding-left: 4.6vw;
     padding-right: 4.6vw;
@@ -1370,5 +1378,11 @@ body {
 
   .lg\:scroll-hidden::-webkit-scrollbar {
     display: none;
+  }
+}
+
+@media(max-width:800px) {
+  .\[\@media\(max-width\:800px\)\]\:gap-5 {
+    gap: 1.25rem;
   }
 }
