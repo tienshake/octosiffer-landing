@@ -777,6 +777,10 @@ body {
   width: 100%;
 }
 
+.w-\[170px\] {
+  width: 170px;
+}
+
 .min-w-\[140px\] {
   min-width: 140px;
 }
