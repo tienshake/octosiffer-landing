@@ -12,7 +12,7 @@ Before running the project, ensure you have:
 
 1. Clone the project:
 ```bash
-git clone [repository-url]
+git clone https://github.com/tienshake/octosiffer-landing
 cd octosiffer-lading
 ```
 
