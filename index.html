@@ -32,14 +32,28 @@
         </div>
       </header>
 
-      <header class="border-b-[0.5px] border-border-secondary md:hidden block">
+      <header class="border-b-[0.5px] border-border-secondary md:hidden block relative">
         <div class="h-16 flex justify-between items-center content-wrapper">
           <a href="#"><img src="./assets/svg/logo_mobile.svg" alt="logo" /></a>
 
-          <a href="#"><img src="./assets/svg/menu.svg" alt="menu" /></a>
+          <!-- Menu Icon -->
+          <button id="menu-toggle" class="p-2">
+            <img src="./assets/svg/menu.svg" alt="menu" />
+          </button>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div
+          id="mobile-menu"
+          class="absolute bg-primary top-1 left-0 w-full bg-white shadow-lg transform -translate-y-full transition-transform duration-300"
+        >
+          <ul class="text-secondary text-15 uppercase flex flex-col gap-4 py-4 px-6">
+            <li><a href="#">Buy</a></li>
+            <li><a href="#">Game list</a></li>
+            <li><a href="#">Client panel</a></li>
+          </ul>
         </div>
       </header>
-
       <!-- header end -->
 
       <!-- body start -->
@@ -543,4 +557,5 @@
       <!-- footer end -->
     </div>
   </body>
+  <script src="./assets/js/index.js"></script>
 </html>
