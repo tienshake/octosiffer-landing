@@ -664,28 +664,8 @@ body {
   left: 0px;
 }
 
-.top-16 {
-  top: 4rem;
-}
-
-.top-\[-100px\] {
-  top: -100px;
-}
-
-.top-\[-50px\] {
-  top: -50px;
-}
-
 .top-1 {
   top: 0.25rem;
-}
-
-.top-20 {
-  top: 5rem;
-}
-
-.top-\[50px\] {
-  top: 50px;
 }
 
 .top-\[64px\] {
@@ -867,10 +847,6 @@ body {
   gap: 1.25rem;
 }
 
-.gap-6 {
-  gap: 1.5rem;
-}
-
 .gap-9 {
   gap: 2.25rem;
 }
@@ -881,14 +857,6 @@ body {
 
 .gap-\[84px\] {
   gap: 84px;
-}
-
-.gap-\[5\%\] {
-  gap: 5%;
-}
-
-.gap-20 {
-  gap: 5rem;
 }
 
 .overflow-hidden {
@@ -962,11 +930,6 @@ body {
   background-color: rgb(25 25 27 / var(--tw-bg-opacity, 1));
 }
 
-.bg-secondary {
-  --tw-bg-opacity: 1;
-  background-color: rgb(114 113 115 / var(--tw-bg-opacity, 1));
-}
-
 .bg-linear {
   background-image: linear-gradient(180deg, rgba(25, 24, 26, 0.5) 0%, rgba(20, 19, 21, 0.5) 100%);
 }
@@ -976,17 +939,22 @@ body {
      object-fit: cover;
 }
 
-.p-5 {
-  padding: 1.25rem;
-}
-
 .p-2 {
   padding: 0.5rem;
+}
+
+.p-5 {
+  padding: 1.25rem;
 }
 
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
+}
+
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 
 .py-14 {
@@ -1007,11 +975,6 @@ body {
 .py-6 {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
-}
-
-.px-6 {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
 }
 
 .pb-10 {
@@ -1193,6 +1156,10 @@ body {
     display: none;
   }
 
+  .md\:h-\[60px\] {
+    height: 60px;
+  }
+
   .md\:max-h-\[1000px\] {
     max-height: 1000px;
   }
@@ -1211,6 +1178,10 @@ body {
 
   .md\:w-\[600px\] {
     width: 600px;
+  }
+
+  .md\:w-\[60px\] {
+    width: 60px;
   }
 
   .md\:w-auto {
@@ -1324,10 +1295,6 @@ body {
     margin-top: 100px;
   }
 
-  .lg\:h-\[60px\] {
-    height: 60px;
-  }
-
   .lg\:max-h-\[700px\] {
     max-height: 700px;
   }
@@ -1342,10 +1309,6 @@ body {
 
   .lg\:w-\[342px\] {
     width: 342px;
-  }
-
-  .lg\:w-\[60px\] {
-    width: 60px;
   }
 
   .lg\:w-auto {
@@ -1370,10 +1333,6 @@ body {
 
   .lg\:gap-\[52px\] {
     gap: 52px;
-  }
-
-  .lg\:gap-\[84px\] {
-    gap: 84px;
   }
 
   .lg\:px-\[4\.6vw\] {
@@ -1411,11 +1370,5 @@ body {
 
   .lg\:scroll-hidden::-webkit-scrollbar {
     display: none;
-  }
-}
-
-@media(max-width:800px) {
-  .\[\@media\(max-width\:800px\)\]\:gap-5 {
-    gap: 1.25rem;
   }
 }
